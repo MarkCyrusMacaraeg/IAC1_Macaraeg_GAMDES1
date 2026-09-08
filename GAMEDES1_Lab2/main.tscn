@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://c2kxv43jo2vlo"]
+
+[ext_resource type="Texture2D" uid="uid://cwr3mglryepfd" path="res://icon.svg" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://0bcit7if0ey6" path="res://player_gd.gd" id="2_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=432813931]
+
+[node name="Player" type="Sprite2D" parent="." unique_id=1551535636]
+
+[node name="player_gd" type="Sprite2D" parent="Player" unique_id=356956277]
+position = Vector2(-120, -92)
+rotation = 0.0017453292
+scale = Vector2(1.3376843, 1.0040814)
+skew = 0.01570797
+texture = ExtResource("1_0xm2m")
+offset = Vector2(91.1668, 89.881424)
+script = ExtResource("2_h2yge")
+
+[node name="Camera" type="Camera2D" parent="." unique_id=2128852341]
+
+[node name="ScoreLabel" type="Label" parent="." unique_id=1635640711]
+offset_left = 451.0
+offset_top = 219.0
+offset_right = 491.0
+offset_bottom = 242.0
